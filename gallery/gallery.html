@@ -99,8 +99,25 @@
   </div>
 
   <!-- Section another -->
-  
+   <section class="gallery-section">
+  <h2>📸 Our Gallery</h2>
 
+  <!-- Upload Box -->
+  <div class="upload-box">
+    <input type="file" id="fileInput" accept="image/*">
+    <label for="fileInput">+ Upload Image</label>
+  </div>
+
+  <!-- Gallery Grid -->
+  <div class="gallery" id="gallery"></div>
+
+  <!-- Modal for Preview -->
+  <div class="modal" id="modal">
+    <span class="close" id="close">&times;</span>
+    <img id="modalImg">
+  </div>
+</section>
+  
   <script src="gallery.js"></script>
 </body>
 </html>
